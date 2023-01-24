@@ -1,0 +1,14 @@
+---
+title: Statistical Inference
+author: Gu, Xin
+date: 2022-05-19
+---
+
+## Sufficiency 
+
+A *statistic* - a function of the data only - is defined as **sufficiency** for a parameter (vector) $\mathbb{\theta}$ if it captures
+all the information about $\mathbb{\theta}$ contained in the data. Sufficient statistics summarizes data, 
+giving a tremendous reduction in size. 
+
+In a formal way, we define $T(\mathbb{\theta})$ as sufficient statistic, where the inference about parameter 
+$\mathbb{\theta}$ dependend on data $\mathbf{X} = (X_1, X_2,\cdots, X_n)^T$ only through $T(\mathbb{\theta})$. 
