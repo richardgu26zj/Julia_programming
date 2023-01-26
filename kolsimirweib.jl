@@ -14,4 +14,4 @@ plot([0 y]', [0 collect(i./N)']', lw = 3, lc = :red, linetype = :steppre, label 
 plot!([0.0, 1.0], [0., 1.], lw = 3, lc =:blue, label="")
 xlabel!("x")
 ylabel!(L"\hat{G}_N(x)")
-title!("The Reduced Empirical cdf \hat{G}_N(x)")
+title!("The Reduced Empirical cdf  "*L" \hat{G}_N(x)")
